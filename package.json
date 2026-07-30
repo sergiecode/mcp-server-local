@@ -1,0 +1,11 @@
+{
+  "name": "mcp-server-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Servidor MCP demo con herramienta obtener_hora",
+  "main": "index.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}

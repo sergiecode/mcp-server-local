@@ -1,0 +1,23 @@
+{
+  "servers": {
+    "demo-suma-hora": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "index.js"
+      ]
+    },
+
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "TU_TOKEN_AQUI"
+      }
+    }
+  }
+}
